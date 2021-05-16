@@ -47,8 +47,7 @@ const VisitorSection = ({
             }
             description={
               <Text
-                content="ProtoDoorは、圧倒的なスピード、SEO、Webサイトの品質で、成長に必要な顧客を獲得します。ProtoDoorを使えば、夢のようなサイトを簡単に手に入れることができます。
-                ProtoDoorは、お客様がビジネスに集中できるように、ウェブサイトの技術的な悩みから解放します。"
+                content="ProtoDoorは、圧倒的なスピード、SEO、Webサイトの品質で、成長に必要な顧客を獲得します。ProtoDoorを使えば、夢のようなサイトを簡単に手に入れることができます。 ProtoDoorは、お客様がビジネスに集中できるように、ウェブサイトの技術的な悩みから解放します。"
                 {...description}
               />
             }

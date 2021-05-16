@@ -56,11 +56,11 @@ const BannerSection = ({
             </DiscountWrapper> */}
             <Heading
               {...title}
-              content="Cutting Edge Websites, Tailored for Japan."
+              content="最先端のウェブサイトを日本向けにアレンジ。"
             />
             <Text
               {...description}
-              content="ProtoDoor makes your website with the top-end techniques used by GAFA, and tailors it exactly to your needs.  We take care of your website from A to Z, so that you can focus on your business."
+              content="ProtoDoorでは、GAFAで使用されている最先端の技術を用いて、お客様のニーズに合ったウェブサイトを作成します。お客様がビジネスに集中できるように、ウェブサイトを一括管理します。"
             />
             {/* <Box {...buttonWrapper}>
               <a href="#1">

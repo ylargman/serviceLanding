@@ -310,17 +310,17 @@
     {
       "icon": "../../assets/image/saasModern/icon-1.png",
       "title": "最速",
-      "description": "ページのロード時間を極限まで最速化し、パソコンでもモバイルでもサクサクで愉快なUX"
+      "description": "サイトへのアクセス時間を極限まで最速化。パソコンでもモバイルでもサクサクで愉快なUXを提供します"
     },
     {
       "icon": "../../assets/image/saasModern/icon-2.png",
       "title": "SEO",
-      "description": "SEO対策万全で、検索結果で上位表示されると人通りが多くなる"
+      "description": "検索結果を通して、検索エンジンを最適化"
     },
     {
       "icon": "../../assets/image/saasModern/icon-3.png",
       "title": "セキュリティ",
-      "description": "日本のWEBサイトの約80%は脆弱性がある。ProtoDoorの豊富な技術力と高精度セキュリティ判断でお客さんに安心をもたらす"
+      "description": "日本のウェブサイトの約８０％は脆弱性があります。ProtoDoorの豊富な技術力と高精度セキュリティ判断でユーザー様も安心です。"
     },
     {
       "icon": "../../assets/image/saasModern/icon-4.png",
@@ -329,13 +329,13 @@
     },
     {
       "icon": "../../assets/image/saasModern/icon-5.png",
-      "title": "Expertise",
-      "description": "We bring the cutting edge skills and innovation of Stanford and GAFA companies to you."
+      "title": "技術の信用性",
+      "description": "スタンフォード大学やGAFA企業が持つ最先端のスキルでイノベーションをお届けします。"
     },
     {
       "icon": "../../assets/image/saasModern/icon-6.png",
-      "title": "Customer Satisfaction",
-      "description": "We work with you to make sure you get a product that fulfills all of your needs and surprises you with quality you didn't even know was possible."
+      "title": "お客様満足度",
+      "description": "私たちは、ユーザー様のニーズを満たす製品を作り、ユーザー様が想像もしていなかったようなクオリティでお客様を驚かせることができます。"
     }
   ],
   "TESTIMONIALS": [

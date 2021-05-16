@@ -29,11 +29,14 @@ const PartnerSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Our Founder - Yan Largman"
+              content="開発者—Yan Largman"
             />
             <Text
               {...description}
-              content="Graduated from Stanford Computer Science in the top 10% of the class.  In addition to working at Amazon, making the largest retail shopping website in the world, also worked at small and midsize startups and helped them grow.  JLPT N1 certified.  My goal is to help bring Japan to the forefront of the digital internet age."
+              content="スタンフォード大学のコンピュータサイエンス学科をトップクラスの成績で卒業。
+              ㈱Amazonでは、世界最大の小売ショッピングサイトを構築する一方で、中小のスタートアップ企業でも活躍し、成長に貢献。
+              日本語検定N1取得。
+              私の目標は、日本をデジタル・インターネット時代の最前線に導くことです。"
             />
             <Box>
               <a href="#1">

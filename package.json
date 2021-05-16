@@ -54,7 +54,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "start": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b main"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b super"
   },
   "devDependencies": {
     "firebase-tools": "^8.11.2",

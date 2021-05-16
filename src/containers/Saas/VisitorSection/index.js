@@ -41,13 +41,14 @@ const VisitorSection = ({
           <FeatureBlock
             title={
               <Heading
-                content="Grow your company"
+                content="あなたの会社を成長させます"
                 {...title}
               />
             }
             description={
               <Text
-                content="ProtoDoor gives you unmatched speed, SEO, and website quality to bring your the customers needed for growth. Start now and see how easy it is to get the site of your dreams with ProtoDoor.  We free you from the stress of worrying about website technology so that you can focus on the business you do best."
+                content="ProtoDoorは、圧倒的なスピード、SEO、Webサイトの品質で、成長に必要な顧客を獲得します。ProtoDoorを使えば、夢のようなサイトを簡単に手に入れることができます。
+                ProtoDoorは、お客様がビジネスに集中できるように、ウェブサイトの技術的な悩みから解放します。"
                 {...description}
               />
             }

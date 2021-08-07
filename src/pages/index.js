@@ -25,12 +25,13 @@ import TestimonialSection from 'containers/SaasModern/Testimonial';
 import VisitorSection from 'containers/Saas/VisitorSection';
 import Footer from 'containers/SaasModern/Footer';
 import SEO from 'components/seo';
+import CustomerTracking from 'containers/SassMinimal/CustomerTracking';
 
 export default () => {
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
-        <SEO title="SaaS Modern | A react next landing page" />
+        <SEO title="ProtoDoor | 最先端のウェブサイトを日本向けにアレンジ" />
 
         <ResetCSS />
         <GlobalStyle />
@@ -44,12 +45,13 @@ export default () => {
           <BannerSection />
           <FeatureSection />
           <VisitorSection />
+          {/* <InfoSection /> */}
           <PartnerSection />
+          {/* <CustomerTracking /> */}
           {/* <WorkingProcessSection /> */}
           {/* <WorkingProcessSection /> */}
-{/*           
-          <InfoSection />
-          <UpdateScreen />
+          
+          {/* <UpdateScreen />
           <PricingSection />
           <TestimonialSection />
           <FaqSection />

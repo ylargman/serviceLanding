@@ -10,8 +10,8 @@ import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from 'common/assets/image/saasModern/websiteCreate.png';
-import ImageTwo from 'common/assets/image/saasModern/dash-bg.png';
+import ImageOne from 'common/assets/image/saasModern/dash-1.png';
+import ImageTwo from 'common/assets/image/saasModern/dash-2.png';
 
 const InfoSection = ({
   row,
@@ -37,11 +37,11 @@ const InfoSection = ({
                 <Image src={ImageOne} alt="Info Image One" />
               </Fade>
             </Card>
-            <Card {...imageWrapper} {...imageWrapperTwo}>
+            {/* <Card {...imageWrapper} {...imageWrapperTwo}>
               <Fade bottom>
                 <Image src={ImageTwo} alt="Info Image Two" />
               </Fade>
-            </Card>
+            </Card> */}
           </Box>
         </Box>
       </Container>

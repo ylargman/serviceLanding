@@ -1,12 +1,53 @@
 import styled from 'styled-components';
 import FooterImage from 'common/assets/image/hosting/footer-bg.png';
 
+// const FooterWrapper = styled.footer`
+//   position: relative;
+//   background: linear-gradient(to bottom, #ffffff 0%, #fcfcfd 5%, #fcfcfd 100%);
+//   overflow: hidden;
+//   @media (min-width: 576px) {
+//     padding-top: 150px;
+//     &:before {
+//       content: '';
+//       position: absolute;
+//       width: 104%;
+//       padding-bottom: 104%;
+//       border-top-right-radius: 11%;
+//       top: 18%;
+//       left: 0;
+//       pointer-events: none;
+//       background-color: #fff;
+//       transform: rotate(-6deg);
+//       @media (max-width: 767px) {
+//         padding-bottom: 150%;
+//       }
+//     }
+//   }
+
+//   .footer_container {
+//     background-repeat: no-repeat;
+//     background-position: center 50px;
+//     padding-top: 80px;
+//     padding-bottom: 80px;
+//     position: relative;
+//     @media (min-width: 576px) {
+//       background-image: url(${FooterImage});
+//     }
+//     @media (max-width: 990px) {
+//       padding-bottom: 40px;
+//     }
+//     @media (max-width: 767px) {
+//       padding-bottom: 0px;
+//     }
+//   }
+// `;
+
 const FooterWrapper = styled.footer`
   position: relative;
   background: linear-gradient(to bottom, #ffffff 0%, #fcfcfd 5%, #fcfcfd 100%);
   overflow: hidden;
   @media (min-width: 576px) {
-    padding-top: 150px;
+    padding-top: 10px;
     &:before {
       content: '';
       position: absolute;
@@ -27,14 +68,14 @@ const FooterWrapper = styled.footer`
   .footer_container {
     background-repeat: no-repeat;
     background-position: center 50px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     @media (min-width: 576px) {
       background-image: url(${FooterImage});
     }
     @media (max-width: 990px) {
-      padding-bottom: 40px;
+      padding-bottom: 10px;
     }
     @media (max-width: 767px) {
       padding-bottom: 0px;

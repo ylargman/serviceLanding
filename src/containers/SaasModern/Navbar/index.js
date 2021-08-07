@@ -11,8 +11,10 @@ import Container from 'common/components/UI/Container';
 import { DrawerContext } from 'common/contexts/DrawerContext';
 import ScrollSpyMenu from 'common/components/ScrollSpyMenu';
 
-import LogoImage from 'common/assets/image/saasModern/logo-white.png';
-import LogoImageAlt from 'common/assets/image/saasModern/logo.png';
+// import LogoImage from 'common/assets/image/saasModern/logo-white.png';
+// import LogoImageAlt from 'common/assets/image/saasModern/logo.png';
+import LogoImage from 'common/assets/image/saasModern/doorNameWhite.png';
+import LogoImageAlt from 'common/assets/image/saasModern/doorNameBlack.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const Data = useStaticQuery(graphql`
@@ -60,8 +62,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={Data.saasModernJson.MENU_ITEMS}
               offset={-70}
             />
-            <a href="#1" className="navbar_button">
-              <Button {...button} title="GET STARTED" />
+            <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について" className="navbar_button">
+              <Button {...button} title="問い合わせ" />
             </a>
             <Drawer
               width="420px"
@@ -76,8 +78,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <a href="#1" className="navbar_drawer_button">
-                <Button {...button} title="GET STARTED" />
+              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について" className="navbar_drawer_button">
+                <Button {...button} title="問い合わせ" />
               </a>
             </Drawer>
           </Box>

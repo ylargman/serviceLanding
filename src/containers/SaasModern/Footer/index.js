@@ -8,7 +8,8 @@ import Logo from 'common/components/UIElements/Logo';
 import Container from 'common/components/UI/Container';
 import FooterWrapper, { List, ListItem } from './footer.style';
 
-import LogoImage from 'common/assets/image/saasModern/logo.png';
+//import LogoImage from 'common/assets/image/saasModern/logo.png';
+import LogoImage from 'common/assets/image/saasModern/doorNameBlack.png';
 
 const Footer = ({
   row,
@@ -44,11 +45,10 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
-            <Text content="+479-443-9334" {...textStyle} />
+            <Text content="contact@protodoor.com" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
-          <Box {...colTwo}>
+          {/* <Box {...colTwo}>
             {Data.saasModernJson.FOOTER_WIDGET.map((widget, index) => (
               <Box className="col" {...col} key={`footer-widget-${index}`}>
                 <Heading content={widget.title} {...titleStyle} />
@@ -63,7 +63,7 @@ const Footer = ({
                 </List>
               </Box>
             ))}
-          </Box>
+          </Box> */}
           {/* End of footer List column */}
         </Box>
       </Container>

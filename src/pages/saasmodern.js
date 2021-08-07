@@ -42,18 +42,15 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
-          <FeatureSection />
-          <VisitorSection />
-          <PartnerSection />
-          {/* <WorkingProcessSection /> */}
-          {/* <WorkingProcessSection /> */}
-{/*           
+          <WorkingProcessSection />
           <InfoSection />
+          <FeatureSection />
           <UpdateScreen />
           <PricingSection />
+          <PartnerSection />
           <TestimonialSection />
           <FaqSection />
-          <TrialSection /> */}
+          <TrialSection />
           <Footer />
         </ContentWrapper>
       </Fragment>

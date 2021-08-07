@@ -6,8 +6,8 @@ import { ResetCSS } from 'common/assets/css/style';
 import { GlobalStyle, ContentWrapper } from 'containers/Saas/saas.style';
 import Navbar from 'containers/Saas/Navbar';
 import BannerSection from 'containers/Saas/BannerSection';
-//import FeatureSection from 'containers/Saas/FeatureSection';
-import FeatureSection from 'containers/SaasModern/Feature';
+import FeatureSection from 'containers/Saas/FeatureSection';
+// import FeatureSection from 'containers/SaasModern/Feature';
 import VisitorSection from 'containers/Saas/VisitorSection';
 import ServiceSection from 'containers/Saas/ServiceSection';
 import FaqSection from 'containers/Saas/FaqSection';
@@ -36,7 +36,7 @@ export default () => {
           </Sticky>
           <BannerSection />
           <FeatureSection />
-          {/* <VisitorSection /> */}
+          <VisitorSection />
           <InfoSection />
           <ServiceSection />
           <PricingSection />

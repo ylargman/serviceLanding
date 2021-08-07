@@ -8,7 +8,7 @@ import Image from 'common/components/Image';
 import Container from 'common/components/UI/Container';
 
 import PartnerSectionWrapper from './partner.style';
-import Partner from 'common/assets/image/saasModern/websiteCreate.png';
+import Partner from 'common/assets/image/saasModern/programmer1130x1000.png';
 
 const PartnerSection = ({
   row,
@@ -20,7 +20,7 @@ const PartnerSection = ({
   imageArea,
 }) => {
   return (
-    <PartnerSectionWrapper>
+    <PartnerSectionWrapper as="section" id="partner_section">
       <Container>
         <Box {...row}>
           <Box {...col} {...imageArea}>
@@ -36,8 +36,8 @@ const PartnerSection = ({
               content="スタンフォード大学のコンピュータサイエンス学科をトップクラスの成績で卒業。㈱Amazonでは、世界最大の小売ショッピングサイトを構築する一方で、中小のスタートアップ企業でも活躍し、成長に貢献。日本語検定N1取得。私の目標は、日本をデジタル・インターネット時代の最前線に導くことです。"
             />
             <Box>
-              <a href="#1">
-                <Button {...button} title="連絡" />
+              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について">
+                <Button {...button} title="問い合わせ" />
               </a>
             </Box>
           </Box>

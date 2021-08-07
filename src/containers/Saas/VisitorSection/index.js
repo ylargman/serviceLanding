@@ -12,8 +12,12 @@ import FeatureBlock from 'common/components/FeatureBlock';
 import Container from 'common/components/UI/Container';
 import VisitorSectionWrapper, { SectionObject } from './visitor.style';
 
-import ImageOne from 'common/assets/image/saas/websiteVisitor.png';
-import ImageBg from 'common/assets/image/saas/green_bg80.png';
+//import ImageOne from 'common/assets/image/saas/websiteVisitor.png';
+import ImageOne from 'common/assets/image/saas/growth1031x770.png';
+// import ImageOne from 'common/assets/image/saas/saasvisitor1.png';
+// import ImageBg from 'common/assets/image/saas/green_bg80.png';
+//import ImageBg from 'common/assets/image/saas/visitor_bg.png';
+import ImageBg from 'common/assets/image/saas/green_bg.png';
 
 const VisitorSection = ({
   title,
@@ -41,7 +45,8 @@ const VisitorSection = ({
           <FeatureBlock
             title={
               <Heading
-                content="あなたの会社を成長させます"
+                content={<span style={{whiteSpace: 'pre-line'}}>{`あなたの会社を
+                成長させます`}</span>}
                 {...title}
               />
             }
@@ -52,8 +57,8 @@ const VisitorSection = ({
               />
             }
             button={
-              <a href="#1">
-                <Button title="HOW IT WORKS" {...btnStyle} />
+              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について">
+                <Button title="問い合わせ" {...btnStyle} />
               </a>
             }
           />
@@ -97,11 +102,11 @@ VisitorSection.defaultProps = {
     minWidth: '156px',
     fontSize: '14px',
     fontWeight: '500',
-    color: '#fff',
+    color: '#000',
     borderRadius: '4px',
     pl: '22px',
     pr: '22px',
-    colors: 'primaryWithBg',
+    colors: 'secondaryWithBg',
   },
 };
 

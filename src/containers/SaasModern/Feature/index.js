@@ -40,7 +40,7 @@ const FeatureSection = ({
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content="FEATURES" />
-          <Heading {...secHeading} content="Why choose ProtoDoor?" />
+          <Heading {...secHeading} content="ProtoDoorの特徴" />
         </Box>
 
         <Box {...row}>
@@ -88,7 +88,8 @@ FeatureSection.propTypes = {
 FeatureSection.defaultProps = {
   sectionWrapper: {
     pt: ['50px', '50px', '50px', '50px', '50px'],
-    pb: ['20px', '50px', '60px', '70px', '100px'],
+    pb: ['0px', '0px', '0px', '0px', '0px'],
+    // pb: ['10px', '25px', '30px', '35px', '50px'],
   },
   secTitleWrapper: {
     mb: ['60px', '100px'],

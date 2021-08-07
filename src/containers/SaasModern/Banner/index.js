@@ -56,7 +56,8 @@ const BannerSection = ({
             </DiscountWrapper> */}
             <Heading
               {...title}
-              content="最先端のウェブサイトを日本向けにアレンジ。"
+              content={<span style={{whiteSpace: 'pre-line'}}>{`最先端のウェブサイトを
+              日本向けにアレンジ。`}</span>}
             />
             <Text
               {...description}

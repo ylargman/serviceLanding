@@ -62,7 +62,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={Data.saasModernJson.MENU_ITEMS}
               offset={-70}
             />
-            <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について" className="navbar_button">
+            <a href="mailto:altega.games@gmail.com?subject=【問い合わせ】利用について" className="navbar_button">
               <Button {...button} title="問い合わせ" />
             </a>
             <Drawer
@@ -78,7 +78,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について" className="navbar_drawer_button">
+              <a href="mailto:altega.games@gmail.com?subject=【問い合わせ】利用について" className="navbar_drawer_button">
                 <Button {...button} title="問い合わせ" />
               </a>
             </Drawer>

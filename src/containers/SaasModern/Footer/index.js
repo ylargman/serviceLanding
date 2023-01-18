@@ -45,7 +45,7 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="contact@protodoor.com" {...textStyle} />
+            <Text content="altega.games@gmail.com" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
           {/* <Box {...colTwo}>

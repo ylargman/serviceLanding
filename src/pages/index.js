@@ -31,7 +31,7 @@ export default () => {
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
-        <SEO title="ProtoDoor | 最先端のウェブサイトを日本向けにアレンジ" />
+        <SEO title="Altega | 最先端のウェブサイトを日本向けにアレンジ" />
 
         <ResetCSS />
         <GlobalStyle />

@@ -36,7 +36,7 @@ const PartnerSection = ({
               content="スタンフォード大学のコンピュータサイエンス学科をトップクラスの成績で卒業。㈱Amazonでは、世界最大の小売ショッピングサイトを構築する一方で、中小のスタートアップ企業でも活躍し、成長に貢献。日本語検定N1取得。私の目標は、日本をデジタル・インターネット時代の最前線に導くことです。"
             />
             <Box>
-              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について">
+              <a href="mailto:altega.games@gmail.com?subject=【問い合わせ】利用について">
                 <Button {...button} title="問い合わせ" />
               </a>
             </Box>

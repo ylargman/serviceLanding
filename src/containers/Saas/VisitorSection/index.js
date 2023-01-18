@@ -52,12 +52,12 @@ const VisitorSection = ({
             }
             description={
               <Text
-                content="ProtoDoorは、圧倒的なスピード、SEO、Webサイトの品質で、成長に必要な顧客を獲得します。ProtoDoorを使えば、夢のようなサイトを簡単に手に入れることができます。 ProtoDoorは、お客様がビジネスに集中できるように、ウェブサイトの技術的な悩みから解放します。"
+                content="Altegaは、圧倒的なスピード、SEO、Webサイトの品質で、成長に必要な顧客を獲得します。Altegaを使えば、夢のようなサイトを簡単に手に入れることができます。 Altegaは、お客様がビジネスに集中できるように、ウェブサイトの技術的な悩みから解放します。"
                 {...description}
               />
             }
             button={
-              <a href="mailto:contact@protodoor.com?subject=【問い合わせ】利用について">
+              <a href="mailto:altega.games@gmail.com?subject=【問い合わせ】利用について">
                 <Button title="問い合わせ" {...btnStyle} />
               </a>
             }
